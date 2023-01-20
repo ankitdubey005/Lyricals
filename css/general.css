@@ -1,0 +1,58 @@
+/* 
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 
+/ 80 / 96 / 128 
+
+--FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 
+  / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.primary-heading {
+  font-size: 6.2rem;
+  line-height: 1;
+  letter-spacing: -0.07rem;
+  margin-bottom: 3.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3.6rem;
+}
+
+.btn:link,
+.btn:visited {
+  padding: 1.8rem 4.8rem;
+  background-color: #228be6;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  align-items: center;
+  border-radius: 9px;
+  letter-spacing: .09rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #fff;
+  color: #228be6;
+  /* border: 2px solid #228be6; */
+  cursor: pointer;
+  box-shadow: 0 0 0 2px #228be6 inset;
+}
+
+/* helper class */
+.blue-color {
+  background-color: #228be6 !important;
+}
+
+.blue-color:hover {
+  background-color: #fff !important;
+  color: #228be6;
+  box-shadow: 0 0 0 2px #228be6 inset;
+  /* border: 2px solid #228be6; */
+  cursor: pointer;
+}
