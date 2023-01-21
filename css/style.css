@@ -60,7 +60,9 @@ html {
   height: 9.6rem;
   align-items: center;
   background-color: #343a40;
-  color: #fff;
+  background-color: #82589F;
+  background-color: #d6a2e8;
+  background-color: #efdaf6;
 }
 
 .logo {
@@ -80,7 +82,8 @@ html {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  color: #fff;
+  color: #333;
+  /* color: #55E6C1; */
   display: block;
   padding: 1.8rem 4.8rem;
   border-radius: 9px;
@@ -131,6 +134,7 @@ html {
 .section-card {
   padding: 9.6rem 0;
   color: #fff;
+  color: #333;
   /* color: ; */
 }
 
@@ -138,6 +142,10 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #343a40;
+  background-color: #82589F;
+  background-color: #ddfaf3;
+  background-color: #f7ecfa;
+
 
   align-items: center;
   justify-content: center;
@@ -157,6 +165,7 @@ html {
   font-size: 1.8rem;
   line-height: 1.6;
   color: #fff;
+  color: #333;
 }
 
 .card-img {
@@ -180,7 +189,7 @@ html {
   font-size: 1.8rem;
   line-height: 1.8;
   /* background-color: #eee; */
-  /* padding: 9.6rem 0; */
+  padding: 9.6rem 0;
 }
 
 .container-lyrics {
@@ -205,7 +214,6 @@ html {
   /* padding: 0 4.8rem; */
 
 }
-
 
 .song-name {
   text-transform: uppercase;

@@ -27,8 +27,12 @@ SPACING SYSTEM (px)
 .btn:visited {
   padding: 1.8rem 4.8rem;
   background-color: #228be6;
+  background-color: #55E6C1;
+  background-color: #2C3A47;
+
   text-decoration: none;
   color: #fff;
+  /* color: #111; */
   font-size: 1.8rem;
   align-items: center;
   border-radius: 9px;
@@ -52,7 +56,12 @@ SPACING SYSTEM (px)
 .blue-color:hover {
   background-color: #fff !important;
   color: #228be6;
+  color: #2C3A47;
   box-shadow: 0 0 0 2px #228be6 inset;
   /* border: 2px solid #228be6; */
   cursor: pointer;
+}
+
+.margin-btm-rm {
+  margin-bottom: 0 !important;
 }
