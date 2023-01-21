@@ -26,9 +26,9 @@ SPACING SYSTEM (px)
 .btn:link,
 .btn:visited {
   padding: 1.8rem 4.8rem;
-  background-color: #228be6;
   background-color: #55E6C1;
   background-color: #2C3A47;
+  background-color: #228be6;
 
   text-decoration: none;
   color: #fff;
